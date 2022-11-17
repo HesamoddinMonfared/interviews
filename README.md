@@ -323,5 +323,21 @@ What I also really like to do is to start doing 96 so after recruiter asked you 
 - `# R1. Notes about spring.jpa.hibernate.ddl-auto:`
    - `# spring.jpa.hibernate.ddl-auto is used for database initialization. We set the value to update value so that a table will be created in the database automatically corresponding to defined data model. Any change to the model will also trigger an update to the table. For production, this property should be validate.`
    
+- `# R1. spring.jpa.hibernate.ddl-auto default value:`
+   - `# jpa. hibernate. ddl-auto explicitly and the standard Hibernate property values are none , validate , update , create-drop . Spring Boot chooses a default value for you based on whether it thinks your database is embedded (default create-drop ) or not (default none ).`
+   
+- `# R1. What is difference between generation type auto and identity?:`
+   - `# AUTO: Hibernate selects the generation strategy based on the used dialect, IDENTITY: Hibernate relies on an auto-incremented database column to generate the primary key, SEQUENCE: Hibernate requests the primary key value from a database sequence, TABLE: Hibernate uses a database table to simulate a sequence.`
+   
+## Java Core
+- `# R1. Default access modifier in java:`
+   - `# Any Java members such as class or methods or data members when not specified with any access modifier they are by default considered as default access modifiers. These methods or data members are only accessible within the same package and they cannot be accessed from outside the package.`
+   
+- `# R1. Optional orElseThrow() method in Java with examples:`
+   - `# https://www.geeksforgeeks.org/optional-orelsethrow-method-in-java-with-examples/`
+   
 ## References
+-https://stackoverflow.com/
 -https://www.bezkoder.com/jpa-one-to-many/
+-https://thorben-janssen.com/
+-https://www.geeksforgeeks.org/
