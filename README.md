@@ -329,6 +329,12 @@ What I also really like to do is to start doing 96 so after recruiter asked you 
 - `# R1. What is difference between generation type auto and identity?:`
    - `# AUTO: Hibernate selects the generation strategy based on the used dialect, IDENTITY: Hibernate relies on an auto-incremented database column to generate the primary key, SEQUENCE: Hibernate requests the primary key value from a database sequence, TABLE: Hibernate uses a database table to simulate a sequence.`
    
+### JPA
+- `# R1. one-to-many example:`
+   - `# https://www.bezkoder.com/jpa-one-to-many/`
+   
+
+   
 ## Java Core
 - `# R1. Default access modifier in java:`
    - `# Any Java members such as class or methods or data members when not specified with any access modifier they are by default considered as default access modifiers. These methods or data members are only accessible within the same package and they cannot be accessed from outside the package.`
