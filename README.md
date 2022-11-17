@@ -1,3 +1,4 @@
+- `# R1. sdadad`  
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
@@ -17,26 +18,19 @@
   - [What you can ask the interviewer](#what-you-can-ask-the-interviewer)
     - [Company](#company)
     - [Project](#project)
-
+  - [Spring Boot](#spring-boot)
+  - [References](#references)
+    
 ## Interviews
 
-I decided to arrange a list of fancy questions I've been asked during the interviews I had. They might be useful for you.
-
-P.S. I don't really value theoretical questions, but most of the companies I've been to so far ask only those. The best questions are Computer Science fundamentals, practical application of algorithms. The best questions are live coding questions. They give you an insight into whether a person is able to think in CS way and communicate thoughts to their team.
-P.P.S. The philosophy of hiring is mostly "hiring the best ones" - I agree to that, but it's not clear to me that companies always know what's best. Too often, they don't hire based on the software lifecycle. Instead, they hire people based only on the coding part of the lifecycle. They think they need great coders, but what they really need are software engineers, the ones who look beyond the code.
+I decided to arrange a list of ....
 
 ## History behind
 
-At some point in my professional career, I've been through an endless path of interviews. There were weeks when I had 4-6 offline interviews scheduled and that was not the limit I believe. There were some exceptions, but mostly they were quite standard: 15 minutes HR interview (we've got coffee machine and cookies), ~1h of the technical interview (what is the difference between abstract class and interface questions for an hour), your questions to the company and that's it. You get an offer, decline it and go for the next one.
-
+At some point in my professional career, ....
 ## My vision
 
-I want to share how I approach my way to become a better engineer.
-I see technical interviews as an opportunity to improve my knowledge of the platform, engineering in general, market, etc.
-If there were some questions I didn't know, then it was a good interview. In some way, I believe, it's positive to be judged. I know where my gaps are and this knowledge comes almost for free. The only price I pay is my time and the stress I might experience during the whole process. However, I know what to learn next and this is what is important.
-
-Attending each interview is stressful. Don't be scared - it's also stressful for an interviewer. Keep a balance - don't let him put pressure on you; remember the fact that an interviewer is not always the smartest person in the room. You can't be sure he asks you the right questions. You can't be sure he explains the right answers to you afterward. He's also a human being who might be mistaken. But excellence is achieved only with practice - having that in mind you can also start your interviews-journey. You should practice feeling always comfortable and confident during the interviews. It's a marathon, not a sprint, but you still gotta win the race.
-So, you should at least know what types of questions to expect.
+I want to ....
 
 ## What interviewer might ask you
 
@@ -324,3 +318,10 @@ What I also really like to do is to start doing 96 so after recruiter asked you 
 - Which instruments does your company use for development? Are there any limitations?
 - What level of responsibilities will I have?
 - Does the project offer any business trips/on sites?
+
+## Spring Boot
+- `# R1. Notes about spring.jpa.hibernate.ddl-auto:`
+   - `# spring.jpa.hibernate.ddl-auto is used for database initialization. We set the value to update value so that a table will be created in the database automatically corresponding to defined data model. Any change to the model will also trigger an update to the table. For production, this property should be validate.`
+   
+## References
+-https://www.bezkoder.com/jpa-one-to-many/
